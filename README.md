@@ -19,7 +19,7 @@ Welcome to the **Color Memory Game**, a fun and engaging way to test your memory
 1. Start the game and observe the sequence of colors.
 2. After the sequence is shown, click on the color buttons in the correct order.
 3. If you succeed, the game will move to the next level with a longer sequence!
-4. If you make a mistake, the game ends, and your score is recorded.
+4. If you make a mistake, the game ends.
 
 ## Technologies Used
 - HTML
