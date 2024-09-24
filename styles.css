@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  background-color: #1C1C2D; /* Darker background for contrast */
+  font-family: 'Arial', sans-serif; /* More modern font */
+  color: #EAEAEA; /* Light text color for better readability */
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive; /* Retro gaming font */
+  font-size: 3.5rem; /* Slightly larger for emphasis */
+  margin: 5%;
+  color: #FFD700; /* Gold color for a vibrant look */
+  text-shadow: 2px 2px 8px rgba(255, 215, 0, 0.5); /* Soft glow */
+}
+
+.container {
+  display: block;
+  width: 60%; /* Slightly wider for better button spacing */
+  margin: auto;
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 150px; /* Reduced size for better layout */
+  width: 150px; /* Consistent button size */
+  border: 8px solid #222; /* Darker border for depth */
+  border-radius: 10%; /* Rounded corners */
+  transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.btn:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.game-over {
+  background-color: #FF6B6B; /* Lighter red for a warning feel */
+  opacity: 0.9;
+  border: 5px solid #FF3D3D; /* Distinct border */
+}
+
+.red {
+  background-color: #FF4C4C; /* Vibrant red */
+}
+
+.green {
+  background-color: #4CAF50; /* Lively green */
+}
+
+.blue {
+  background-color: #2196F3; /* Bright blue */
+}
+
+.yellow {
+  background-color: #FFEB3B; /* Sunny yellow */
+}
+
+.pressed {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Brighter shadow */
+  background-color: #A0A0A0; /* Soft gray */
+}
+
+.footer {
+  background-color: #011F3F; /* Match the game background color */
+  color: #FFD700; /* Gold color for text to match the title */
+  text-align: center;
+  padding: 20px 0; /* Added padding for better spacing */
+  position: relative; /* To allow for positioning */
+  bottom: 0;
+  width: 100%; /* Full width */
+  font-family: 'Press Start 2P', cursive; /* Retro font for consistency */
+  font-size: 1.5rem; /* Slightly larger for visibility */
+  border-top: 5px solid #FF6B6B; /* Bright border for emphasis */
+  box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.7); /* Subtle shadow for depth */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Soft glow effect */
+}
+
+
